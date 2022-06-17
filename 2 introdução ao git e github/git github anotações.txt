@@ -1,0 +1,39 @@
+comandos windows: dir, cd, mkdir, rmdir
+comandos linux: ls, cd, mkdir, rmdir
+
+instalar git: http://git-scm.com/
+
+conta no github
+
+- chave SSH e Token
+ssh-keygen -t ed25519 -C email
+
+- tem que ir pra pasta do ssh
+cd /c/Users/fulano/.ssh/
+
+- tem que relacionar as chaves
+ls
+cat <chave publica>
+
+- coloca a chave no github, atribui nome e salva
+
+- autorizar a chave privada
+eval $(ssh-agent -s)
+ssh-add <chave privada>
+
+comandos git
+- git init (pra configurar a pasta com o git)
+
+- git add * (para adicionar os arquivos alterados)
+
+- git commit -m "mensagem" (para fazer o encapsulamento das alterações)
+
+interação com github
+cria o repositorio on-line
+segue o fluxo indicado no site
+
+git remote add origin <endereço no github> (vincula a pasta)
+git push origin main (upload/sincronização)
+git status (checa se está tudo ok e sincronizado)
+git pull origin main (baixa a ultima versao ques esta no github)
+git clone <endereço no github> (clona o repositório)

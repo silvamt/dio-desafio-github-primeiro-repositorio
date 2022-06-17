@@ -1,0 +1,6 @@
+Aula sobre pensamento computacional, destaque aos pilares: decomposição, padrões, abstração e algoritmos.
+Aula sobre introdução à lógica de programação: definição e técnicas de lógica
+Aula sobre fundamentos de algoritmos: tipologias e variáveis, instruções primitivas, estruturas condicionais e operadores, estruturas de repetição, vetores e matrizes, funções e instruções de entrada e saída
+Aula sobre linguagens de programação: introdução, programa, análise de código, paradigmas da programação
+Aula sobre primeiro contato com a programação: portugol
+
